@@ -8,3 +8,14 @@
 body{
   @apply font-tektur;
 }
+
+@layer components {
+  .header-link{
+    @apply text-xl font-normal text-white hover:text-goldenYellow hover:underline hover:underline-offset-4 hoverEffect
+  }
+  .hoverEffect{
+    @apply duration-200 ease-in-out
+  }
+}
+/* .header-link.active{
+  @apply underline underline-offset-4 text-goldenYellow} */

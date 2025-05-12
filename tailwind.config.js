@@ -29,6 +29,16 @@ export default {
       colors: {
         goldenYellow: "#FFE000",
       },
+      boxShadow: {
+        "yellow-glow": `
+          0 -5px 15px -2px #FFE000, 
+          0  5px 15px -2px #FFE000,  
+          -5px 0 25px -2px #FFE000,
+          5px  0 25px -2px #FFE000 
+        `
+          .trim()
+          .replace(/\s+/g, " "),
+      },
     },
   },
   plugins: [],

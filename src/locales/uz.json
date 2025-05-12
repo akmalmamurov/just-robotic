@@ -1,5 +1,11 @@
 {
-    "hello": "Salom",
-    "hello2": "Salom2",
-    "hello3": "Salom3"
+  "home": "Bosh sahifa",
+  "about": "Biz haqimizda",
+  "course": "Kurslar",
+  "contact": "Aloqa",
+  "robotics": "Robototexnika",
+  "english": "Ingliz tili",
+  "painting": "Bolalar uchun rasm",
+  "paintAdult": "Kattalar uchun rasm",
+  "call": "Qo'ng'iroq qilish"
 }
