@@ -40,7 +40,7 @@ const HeaderLink = () => {
           <ChevronDown />
         </span>
         {open && (
-          <div className="absolute top-[50px]  z-10 bg-black w-[500px] shadow-md py-6 flex flex-col items-center gap-4 rounded-md">
+          <div className="absolute top-[50px] z-[20] bg-black w-[500px] shadow-md py-6 flex flex-col items-center gap-4 rounded-md">
             {courses?.map((course) => (
               <div key={course.key} className="w-[289px] border border-goldenYellow rounded-[25px] text-goldenYellow">
                 <Link to={`/course/${course.key}`} className="text-xl">

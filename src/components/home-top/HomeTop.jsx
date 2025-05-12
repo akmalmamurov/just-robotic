@@ -7,7 +7,7 @@ import { robot } from "../../assets/images";
 export const HomeTop = () => {
   const { t } = useTranslation();
   return (
-    <div className="home-bg bg-black relative z-[30]">
+    <div className="home-bg bg-black relative z-[18]">
       <Container>
         <div className="grid grid-cols-2 gap-20">
           {/* left */}
