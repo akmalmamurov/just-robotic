@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Involve";
+  src: url("./Involve/Involve-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Involve";
+  src: url("./Involve/Involve-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Involve";
+  src: url("./Involve/Involve-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Involve";
+  src: url("./Involve/Involve-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Tektur";
+  src: url("./Tektur/Tektur-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Tektur";
+  src: url("./Tektur/Tektur-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Tektur";
+  src: url("./Tektur/Tektur-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Tektur";
+  src: url("./Tektur/Tektur-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Tektur";
+  src: url("./Tektur/Tektur-ExtraBold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Tektur";
+  src: url("./Tektur//Tektur-Black.ttf");
+  font-weight: 900;
+}
