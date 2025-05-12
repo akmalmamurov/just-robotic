@@ -28,6 +28,7 @@ export default {
       },
       colors: {
         goldenYellow: "#FFE000",
+        darkTone: "#121212"
       },
       boxShadow: {
         "yellow-glow": `
@@ -38,6 +39,7 @@ export default {
         `
           .trim()
           .replace(/\s+/g, " "),
+          'yellow-lr': '-10px 0 10px -3px #FFE000, 10px 0 10px -3px #FFE000',
       },
     },
   },
