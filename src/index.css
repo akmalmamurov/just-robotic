@@ -4,18 +4,26 @@
 @tailwind components;
 @tailwind utilities;
 
-
-body{
+body {
   @apply font-tektur;
 }
 
 @layer components {
-  .header-link{
-    @apply text-xl font-normal text-white hover:text-goldenYellow hover:underline hover:underline-offset-4 hoverEffect
+  .header-link {
+    @apply text-xl font-normal text-white hover:text-goldenYellow hover:underline hover:underline-offset-4 hoverEffect;
   }
-  .hoverEffect{
-    @apply duration-200 ease-in-out
+  .hoverEffect {
+    @apply duration-200 ease-in-out;
   }
+}
+.home-bg {
+  background-image: url("./assets/images/headbg.png");
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  aspect-ratio: 1122 / 611; 
+  background-repeat: no-repeat;
+  height: 611px;
 }
 /* .header-link.active{
   @apply underline underline-offset-4 text-goldenYellow} */
