@@ -20,3 +20,25 @@ export const roboData = [
     image: "/r5.png",
   },
 ];
+export const requestData = [
+  {
+    key: "robotics",
+    name: "Робототехника",
+  },
+  {
+    key: "painting",
+    name: "Живопись для детей",
+  },
+  {
+    key: "paintAdult",
+    name: "Живопись для взрослых",
+  },
+  {
+    key: "english",
+    name: "Английский",
+  },
+  {
+    key: "chess",
+    name: "Шахматы",
+  },
+];

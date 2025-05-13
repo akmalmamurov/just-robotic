@@ -29,7 +29,9 @@ export default {
       colors: {
         goldenYellow: "#FFE000",
         darkTone: "#121212",
+        lightBlack: "#00000066",
         safron: "#f0d625",
+        dhuserGray: "#ABABAB",
       },
       boxShadow: {
         "yellow-glow": `
@@ -41,8 +43,8 @@ export default {
           .trim()
           .replace(/\s+/g, " "),
         "yellow-lr": "-10px 0 10px -3px #FFE000, 10px 0 10px -3px #FFE000",
-        'yellow-robo': '0 0 60px 0 rgba(240, 214, 37, 1)',
-        'yellow-review': '0 0 20px 0 rgba(240, 214, 37, 1)',
+        "yellow-robo": "0 0 60px 0 rgba(240, 214, 37, 1)",
+        "yellow-review": "0 0 20px 0 rgba(240, 214, 37, 1)",
       },
     },
   },

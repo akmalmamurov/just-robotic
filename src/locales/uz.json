@@ -20,5 +20,14 @@
   "title2": "Birinchi darsingizni bepul oling",
   "englishChild": "Bolalar uchun ingliz tili",
   "chess": "Shaxmat",
-  "reviews": "sharhlar"
+  "reviews": "sharhlar",
+  "get": "Yuborish",
+  "name": "Ismingiz",
+  "phoneNumber": "Telefon raqamingiz",
+  "selectCourse": "Kursni tanlang",
+  "age": "Yosh",
+  "errorName": "Ismingizni kiriting",
+  "errorPhone": "Telefon raqamingizni kiriting",
+  "success": "Muvaffaqiyatli yuborildi",
+  "loading": "Yuklanmoqda..."
 }

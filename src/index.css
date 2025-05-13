@@ -51,3 +51,14 @@ body {
   .swiper-pagination-bullet-active {
     background: #F0D625 !important;
   }
+  input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  @apply bg-transparent;
+  @apply transition-[background-color] duration-[5000s] delay-0 ease-in-out;
+}
