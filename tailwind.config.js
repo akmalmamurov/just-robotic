@@ -18,7 +18,7 @@ export default {
           sm: "400px",
           md: "740px",
           lg: "980px",
-          xl: "1120px",
+          xl: "1100px",
           "2xl": "1280px",
         },
       },
@@ -41,6 +41,8 @@ export default {
           .trim()
           .replace(/\s+/g, " "),
         "yellow-lr": "-10px 0 10px -3px #FFE000, 10px 0 10px -3px #FFE000",
+        'yellow-robo': '0 0 60px 0 rgba(240, 214, 37, 1)',
+        'yellow-review': '0 0 20px 0 rgba(240, 214, 37, 1)',
       },
     },
   },

@@ -13,7 +13,12 @@
   "goCourses": "Kurslarga o'tish",
   "homeCard1": "Qoniqarli talabalar",
   "homeCard2": "O'qituvchilar",
-  "homeCard3": "guruhlar",
+  "homeCard3": "Guruhlar",
   "homeDesc": "bu texnologiya, san'at va ta'limga ixtisoslashgan zamonaviy o'quv markazi. Biz o‘quvchilarimizning iste’dod va ko‘nikmalarini rivojlantirish uchun qulay va qo‘llab-quvvatlovchi sharoitlar yaratib beramiz. Yuqori malakali o‘qituvchilar jamoasi ilg‘or uslub va texnologiyalardan foydalanib, darslarni interaktiv va qiziqarli o‘tkazmoqda. Biz individual yondashuvga katta e'tibor beramiz, har bir talabaga o'z qobiliyatini ochishga va muvaffaqiyatga erishishga yordam beramiz.",
-  "homeDesc2": "nafaqat o'quv kurslari, balki tadbirlar, mahorat darslari va tanlovlarni ham taklif qiladigan ishtiyoqli va maqsadli odamlar jamoasi. O'quv markazining qulay joylashuvi hamma uchun qulay foydalanish imkonini beradi."
+  "homeDesc2": "nafaqat o'quv kurslari, balki tadbirlar, mahorat darslari va tanlovlarni ham taklif qiladigan ishtiyoqli va maqsadli odamlar jamoasi. O'quv markazining qulay joylashuvi hamma uchun qulay foydalanish imkonini beradi.",
+  "title1": "Muallif parchalari JustRobotics tomonidan",
+  "title2": "Birinchi darsingizni bepul oling",
+  "englishChild": "Bolalar uchun ingliz tili",
+  "chess": "Shaxmat",
+  "reviews": "sharhlar"
 }

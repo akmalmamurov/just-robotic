@@ -1,7 +1,6 @@
-import React from "react";
 import { Container } from "../container";
-import { homeCardData } from "../../data";
 import { HomeTopCard } from "../card";
+import { homeCardData } from "@/data";
 
 export const HomeTopInfo = () => {
   return (

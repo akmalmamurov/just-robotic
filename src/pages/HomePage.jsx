@@ -1,5 +1,7 @@
 import { HomeTop, HomeTopInfo } from "@/components/home-top";
 import { HomeDesc } from "@/components/home-desc";
+import { Courses } from "@/components/courses";
+import { Reviews } from "../components/reviews";
 
 const HomePage = () => {
   return (
@@ -7,6 +9,8 @@ const HomePage = () => {
       <HomeTop />
       <HomeTopInfo />
       <HomeDesc />
+      <Courses />
+      <Reviews />
     </section>
   );
 };
