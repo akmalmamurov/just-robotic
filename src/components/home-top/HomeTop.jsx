@@ -7,11 +7,11 @@ import { robot } from "../../assets/images";
 export const HomeTop = () => {
   const { t } = useTranslation();
   return (
-    <div className="home-bg bg-black relative z-[18]">
+    <div className="bg-black">
       <Container>
         <div className="grid grid-cols-2 gap-20">
           {/* left */}
-          <div className="py-[49px]">
+          <div className="py-[49px] relative">
             <div className="bg-white rounded-[30px] py-12 px-10">
               <h2 className="font-semibold text-[82px] mb-2">JustRobotics</h2>
               <p className="font-medium text-[40px] leading-[42px]">

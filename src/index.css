@@ -16,32 +16,16 @@ body {
     @apply duration-200 ease-in-out;
   }
 }
-.home-bg {
-  background-image: url("./assets/images/headbg.png");
-  background-size: cover;
-  background-position: top;
-  width: 100%;
-  aspect-ratio: 1122 / 611;
-  background-repeat: no-repeat;
-  height: 611px;
-}
-.background {
-  position: relative; /* ichida absolute elementga konteyner bo‘lishi uchun */
-  background-image: url("./assets/images/background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-y: -1014px;
-  min-height: 1500px;
-}
-.reviews {
-  position: relative; /* ichida absolute elementga konteyner bo‘lishi uchun */
-  background-image: url("./assets/images/background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center -1634px;
-  min-height: 300px;
+/* global.css */
+header {
+  position: relative;
+  z-index: 1000;
 }
 
+footer {
+  position: relative;
+  z-index: 1000;
+}
 /* .header-link.active{
   @apply underline underline-offset-4 text-goldenYellow} */
   .swiper-pagination-bullet {

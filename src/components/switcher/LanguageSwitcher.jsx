@@ -1,11 +1,10 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
 
-  const btnBase = "w-20 h-[52px] rounded-[14px] flex justify-center items-center transition-colors duration-300";
+  const btnBase = "w-14 h-10 lg:w-20 lg:h-[52px] rounded-[14px] flex justify-center items-center transition-colors duration-300";
   const active  = "text-white bg-goldenYellow";
   const inactive= "text-white bg-transparent  hover:bg-goldenYellow hover:text-white";
 

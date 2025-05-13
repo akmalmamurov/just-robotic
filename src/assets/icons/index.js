@@ -5,3 +5,5 @@ export * from "./LocationIcon";
 export * from "./TelegramIcon";
 export * from "./YoutubeIcon";
 export * from "./InstagramIcon";
+export * from "./MenuIcon";
+export * from "./CloseIcon";

@@ -4,10 +4,10 @@ import { Courses } from "@/components/courses";
 import { Reviews } from "@/components/reviews";
 import { Request } from "@/components/request";
 import { Branch } from "@/components/branch";
-
+import React from "react";
 const HomePage = () => {
   return (
-    <section>
+    <div>
       <HomeTop />
       <HomeTopInfo />
       <HomeDesc />
@@ -15,7 +15,7 @@ const HomePage = () => {
       <Reviews />
       <Request />
       <Branch />
-    </section>
+    </div>
   );
 };
 

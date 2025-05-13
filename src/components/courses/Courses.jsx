@@ -7,9 +7,9 @@ import { CourseCard } from "../card";
 export const Courses = () => {
   const { t } = useTranslation();
   return (
-    <section className="relative">
+    <section className="">
       {/* 1-fon: Courses bo‘limi */}
-      <div className="background bg-black pt-20 relative z-10">
+      <div className="background bg-black pt-20 ">
         <Container>
           <Title className="text-center mb-20">{t("title1")}</Title>
           <div className="px-[60px]">
