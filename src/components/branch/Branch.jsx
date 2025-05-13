@@ -48,7 +48,7 @@ export const Branch = () => {
             <span>
               <ClockIcon />
             </span>
-            <span className="text-white text-2xl">{t("addressPhone")}</span>
+            <span className="text-white text-2xl">{t("work")}</span>
           </div>
         </div>
       </Container>

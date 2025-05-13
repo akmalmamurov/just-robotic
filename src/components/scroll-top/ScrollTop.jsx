@@ -23,7 +23,7 @@ export const ScrollTop = () => {
     <div className="fixed bottom-8 right-10 z-[50]">
       <button
         onClick={scrollTop}
-        className="w-14 h-14 rounded-full bg-goldenYellow flex items-center justify-center text-white shadow-2xl shadow-goldenYellow text-2xl"
+        className="w-14 h-14 rounded-full bg-black flex items-center justify-center text-goldenYellow shadow-2xl shadow-goldenYellow text-2xl"
       >
         <FaChevronUp />
       </button>

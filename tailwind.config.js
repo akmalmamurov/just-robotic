@@ -35,10 +35,7 @@ export default {
       },
       boxShadow: {
         "yellow-glow": `
-          0 -5px 15px -2px #FFE000, 
-          0  5px 15px -2px #FFE000,  
-          -5px 0 25px -2px #FFE000,
-          5px  0 25px -2px #FFE000 
+          rgb(240, 214, 37) 0px 0px 10px 0px, rgb(240, 214, 37) 0px 0px 15px 0px, rgb(240, 214, 37) 0px 0px 20px 0px
         `
           .trim()
           .replace(/\s+/g, " "),
