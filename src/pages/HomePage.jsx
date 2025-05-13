@@ -3,6 +3,7 @@ import { HomeDesc } from "@/components/home-desc";
 import { Courses } from "@/components/courses";
 import { Reviews } from "@/components/reviews";
 import { Request } from "@/components/request";
+import { Branch } from "@/components/branch";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Courses />
       <Reviews />
       <Request />
+      <Branch />
     </section>
   );
 };

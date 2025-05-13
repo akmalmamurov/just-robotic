@@ -1,7 +1,4 @@
-// src/components/Spinner.jsx
-import React from 'react';
 import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
 
 const spinnerVariants = {
   animate: {
@@ -14,8 +11,7 @@ const spinnerVariants = {
   },
 };
 
-export const Spinner = () => {
-    const {t} = useTranslation();
+export const Spinner = ({t}) => {
   return (
     <div className="flex justify-center items-center">
       <motion.div

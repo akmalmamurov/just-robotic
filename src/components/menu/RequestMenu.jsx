@@ -21,7 +21,6 @@ const RequestMenu = ({ open, setOpen, setSelected, t, selected }) => {
     setSelected(item);
     setOpen(false);
   };
-console.log(selected);
 
   return (
     <AnimatePresence>

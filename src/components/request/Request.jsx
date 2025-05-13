@@ -110,11 +110,11 @@ export const Request = () => {
               <button
                 type="button"
                 onClick={() => setOpen(!open)}
-                className="pb-4 pt-[14px] pl-5 pr-2 text-xl rounded-[9px] text-lightBlack w-full bg-white flex justify-between items-center"
+                className={`pb-4 pt-[14px] pl-5 pr-2 text-xl rounded-[9px] ${selected ? "text-black" : "text-lightBlack"}  w-full bg-white flex justify-between items-center`}
               >
                 {selected ? t(selected) : t("selectCourse")}
                 <ChevronDown
-                  className={`w-[24px] h-6 transition-transform duration-300 ${
+                  className={`w-[24px] h-6 transition-transform duration-300 text-black ${
                     open ? "rotate-180" : ""
                   }`}
                 />
@@ -154,9 +154,9 @@ export const Request = () => {
               <button
                 type="submit"
                 disabled={loading}
-                className="h-[62px] w-full bg-goldenYellow text-black font-bold text-xl flex justify-center items-center rounded-[7px]"
+                className="h-[62px] w-full bg-goldenYellow shadow-yellow-lr text-black font-bold text-2xl flex justify-center items-center rounded-[7px]"
               >
-                {loading ? <Spinner /> : t("get")}
+                {loading ? <Spinner t={t} /> : t("get")}
               </button>
             </div>
           </div>

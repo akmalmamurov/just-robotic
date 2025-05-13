@@ -27,7 +27,7 @@ export default {
         involve: ["Involve", "cursive"],
       },
       colors: {
-        goldenYellow: "#FFE000",
+        goldenYellow: "#FFDE00",
         darkTone: "#121212",
         lightBlack: "#00000066",
         safron: "#f0d625",

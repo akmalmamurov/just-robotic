@@ -28,6 +28,12 @@
   "age": "Yosh",
   "errorName": "Ismingizni kiriting",
   "errorPhone": "Telefon raqamingizni kiriting",
+  "errorPhoneFormat": "Telefon raqamingizni to'g'ri kiriting",
   "success": "Muvaffaqiyatli yuborildi",
-  "loading": "Yuklanmoqda..."
+  "loading": "Yuklanmoqda...",
+  "branch1": "C4 filiali",
+  "branch2": "Beruniy filiali",
+  "address": "Manzil belgisi",
+  "work": "Ish vaqti",
+  "addressPhone": "Telefon raqami"
 }
