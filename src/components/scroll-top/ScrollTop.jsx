@@ -20,7 +20,7 @@ export const ScrollTop = () => {
   if (!visible) return null;
 
   return (
-    <div className="fixed bottom-10 right-10 z-[50]">
+    <div className="fixed bottom-8 right-10 z-[50]">
       <button
         onClick={scrollTop}
         className="w-14 h-14 rounded-full bg-goldenYellow flex items-center justify-center text-white shadow-2xl shadow-goldenYellow text-2xl"

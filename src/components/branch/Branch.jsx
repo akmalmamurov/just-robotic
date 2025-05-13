@@ -52,6 +52,31 @@ export const Branch = () => {
           </div>
         </div>
       </Container>
+      <div className="mt-20">
+        {active === 0 ? (
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23968.26080998003!2d69.22502795036107!3d41.329904439894555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b981e0fe325%3A0xa6fc38e83861c109!2sJust%20Robotics%20Uzbekistan!5e0!3m2!1sru!2s!4v1747152555017!5m2!1sru!2s"
+            className="w-full h-[594px]"
+            width={600}
+            height={450}
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        ) : (
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23964.073748423973!2d69.17476827431642!3d41.34128430000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8d1c273459ab%3A0xdfac2fa8036a74f3!2zSnVzdCBSb2JvdGljcyDRhNC40LvQuNCw0Lsg0JHQtdGA0YPQvdC40Lk!5e0!3m2!1sru!2s!4v1747152648973!5m2!1sru!2s"
+            className="w-full h-[594px]"
+            width={600}
+            height={450}
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        )}
+      </div>
     </div>
   );
 };
