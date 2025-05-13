@@ -1,32 +1,33 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Container } from "../container";
-import { Link } from "react-router-dom";
 import { robot } from "../../assets/images";
 
 export const HomeTop = () => {
   const { t } = useTranslation();
   return (
-    <div className="bg-black">
+    <div className="bg-black ">
       <Container>
-        <div className="grid grid-cols-2 gap-20">
+        <div className="grid grid-cols-12  lg:gap-20">
           {/* left */}
-          <div className="py-[49px] relative">
-            <div className="bg-white rounded-[30px] py-12 px-10">
-              <h2 className="font-semibold text-[82px] mb-2">JustRobotics</h2>
-              <p className="font-medium text-[40px] leading-[42px]">
+          <div className="py-[49px] relative col-span-7 lg:col-span-6">
+            <div className="bg-white rounded-[30px] p-[15px] lg:py-12 lg:px-10">
+              <h2 className="font-semibold text-[32px]  lg:text-[82px] mb-1 lg:mb-2">
+                JustRobotics
+              </h2>
+              <p className="font-medium text-base leading-4 lg:text-[40px] lg:leading-[42px]">
                 {t("1l")}
               </p>
-              <div className="mt-20">
-                <p className="mb-[6px] font-normal text-xl">
+              <div className="lg:mt-20 mt-[5px]">
+                <p className="mb-[6px] font-normal text-sm lg:text-xl">
                   {t("homeTopFree")}
                 </p>
-                <Link
-                  to="/courses"
+                <button
                   className="
                     group
                     relative
-                    w-[320px] h-[62px]
+                    lg:w-[320px] lg:h-[62px]
+                    w-[170px] h-[32px] 
                     overflow-hidden
                     rounded-[8px]
                     bg-black
@@ -41,7 +42,9 @@ export const HomeTop = () => {
                     hover:text-black
                   "
                 >
-                  <span className="relative z-10 font-bold text-xl">{t("goCourses")}</span>
+                  <span className="relative z-10 font-bold text-sm lg:text-xl">
+                    {t("goCourses")}
+                  </span>
 
                   <span
                     className="
@@ -54,13 +57,19 @@ export const HomeTop = () => {
                       
                     "
                   />
-                </Link>
+                </button>
               </div>
             </div>
           </div>
           {/* right */}
-          <div className="">
-            <img src={robot} alt="robot" className="h-[611px]" />
+          <div className="col-span-5 lg:col-span-6 ">
+            <div className="flex justify-start relative">
+              <img
+                src={robot}
+                alt="robot"
+                className="lg:h-[611px] h-[250px]  w-full"
+              />
+            </div>
           </div>
         </div>
       </Container>

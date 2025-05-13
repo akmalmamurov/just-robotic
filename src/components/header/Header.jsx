@@ -27,8 +27,8 @@ export const Header = () => {
     <header className="border-t-[14px] border-b-[14px] border-goldenYellow bg-black py-[23px] text-white ">
       <Container className="flex items-center justify-between">
         {/*logo  */}
-        <div className="cursor-pointer w-[111px]">
-          <img src={logo} alt="logo" className="" />
+        <div className="cursor-pointer ">
+          <img src={logo} alt="logo" className="lg:w-[111px] lg:h-[111px] w-[55px] h-[55px]" />
         </div>
 
         <div className="hidden lg:flex gap-[47px] ml-[100px]">

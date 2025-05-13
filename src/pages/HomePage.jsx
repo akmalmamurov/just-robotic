@@ -7,7 +7,7 @@ import { Branch } from "@/components/branch";
 import React from "react";
 const HomePage = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <HomeTop />
       <HomeTopInfo />
       <HomeDesc />

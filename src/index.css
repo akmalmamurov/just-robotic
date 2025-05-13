@@ -16,7 +16,6 @@ body {
     @apply duration-200 ease-in-out;
   }
 }
-/* global.css */
 header {
   position: relative;
   z-index: 1000;
