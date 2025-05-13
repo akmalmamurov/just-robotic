@@ -32,6 +32,7 @@ export default {
         lightBlack: "#00000066",
         safron: "#f0d625",
         dhuserGray: "#ABABAB",
+        lightWhite: "#FFFFFF1A",
       },
       boxShadow: {
         "yellow-glow": `

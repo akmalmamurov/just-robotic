@@ -7,3 +7,7 @@ export * from "./YoutubeIcon";
 export * from "./InstagramIcon";
 export * from "./MenuIcon";
 export * from "./CloseIcon";
+export * from "./HomeIcon";
+export * from "./AboutIcon";
+export * from "./ContactIcon";
+export * from "./CourseIcon";

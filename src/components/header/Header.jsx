@@ -4,14 +4,27 @@ import LanguageSwitcher from "../switcher/LanguageSwitcher";
 import HeaderLink from "./HeaderLink";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { MenuIcon } from "@/assets/icons";
-import { useState } from "react";
+import { MenuIcon, CloseIcon } from "@/assets/icons";
+import { useEffect, useRef, useState } from "react";
+import HeaderMenu from "./HeaderMenu";
 
 export const Header = () => {
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
+  const ref = useRef(null);
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (ref.current && !ref.current.contains(event.target)) {
+        setOpen(false);
+      }
+    };
+    document.addEventListener("click", handleClickOutside, true);
+    return () => {
+      document.removeEventListener("click", handleClickOutside, true);
+    };
+  }, []);
   return (
-    <header className="border-t-[14px] border-b-[14px] border-goldenYellow bg-black py-[23px] text-white">
+    <header className="border-t-[14px] border-b-[14px] border-goldenYellow bg-black py-[23px] text-white ">
       <Container className="flex items-center justify-between">
         {/*logo  */}
         <div className="cursor-pointer w-[111px]">
@@ -33,11 +46,16 @@ export const Header = () => {
         </div>
         <div className="lg:hidden flex items-center gap-[10px]">
           <LanguageSwitcher />
-          <span onClick={() => setOpen(!open)} className="cursor-pointer">
-            {open ? "X" : <MenuIcon />}
+          <span
+            ref={ref}
+            onClick={() => setOpen(!open)}
+            className="cursor-pointer"
+          >
+            {open ? <CloseIcon /> : <MenuIcon />}
           </span>
         </div>
       </Container>
+      {open && <HeaderMenu setOpen={setOpen} t={t} />}
     </header>
   );
 };
