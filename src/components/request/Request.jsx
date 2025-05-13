@@ -58,13 +58,13 @@ export const Request = () => {
   };
 
   return (
-    <section className="bg-black py-20">
+    <section className="bg-black lg:py-20 py-[30px]">
       <Container>
-        <Title className="text-center mb-20">{t("title2")}</Title>
+        <Title className="text-center mb-[22px] lg:mb-20">{t("title2")}</Title>
         <form noValidate onSubmit={handleSubmit(onSubmit)}>
-          <div className="flex justify-between font-involve gap-[15px]">
+          <div className="flex lg:flex-row flex-col lg:justify-between font-involve gap-[15px]">
             {/* Name Input */}
-            <div className="flex flex-col w-[230px]">
+            <div className="flex flex-col lg:w-[230px]">
               <input
                 type="text"
                 placeholder={t("name")}
@@ -85,7 +85,7 @@ export const Request = () => {
             </div>
 
             {/* Phone Input */}
-            <div className="flex flex-col w-[230px]">
+            <div className="flex flex-col lg:w-[230px]">
               <input
                 type="text"
                 placeholder={t("phoneNumber")}
@@ -106,7 +106,7 @@ export const Request = () => {
             </div>
 
             {/* Menu Input with animation */}
-            <div className="w-[310px] relative">
+            <div className="lg:w-[310px] relative">
               <button
                 type="button"
                 onClick={() => setOpen(!open)}
@@ -129,7 +129,7 @@ export const Request = () => {
             </div>
 
             {/* Age Input */}
-            <div className="flex flex-col w-[173px]">
+            <div className="flex flex-col lg:w-[173px]">
               <input
                 type="text"
                 inputMode="numeric"
@@ -150,11 +150,12 @@ export const Request = () => {
             </div>
 
             {/* Submit Button */}
-            <div className="w-[230px]">
+            <div className="lg:w-[230px]">
               <button
                 type="submit"
                 disabled={loading}
-                className="h-[62px] w-full bg-goldenYellow shadow-yellow-lr text-black font-bold text-2xl flex justify-center items-center rounded-[7px]"
+                className="h-[62px] w-full bg-goldenYellow shadow-yellow-lr text-black font-bold text-2xl flex 
+                justify-center items-center rounded-[7px]"
               >
                 {loading ? <Spinner t={t} /> : t("get")}
               </button>

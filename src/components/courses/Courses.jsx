@@ -10,7 +10,7 @@ export const Courses = () => {
     <section className="">
       <div className="background bg-black pt-20 ">
         <Container>
-          <Title className="text-center mb-20">{t("title1")}</Title>
+          <Title className="text-center mb-[30px] lg:mb-20">{t("title1")}</Title>
           <div className="lg:px-[60px]">
             <div className="flex gap-5 lg:gap-[58px] overflow-x-auto lg:overflow-visible lg:flex-wrap">
               {roboData.map((item, i) => (

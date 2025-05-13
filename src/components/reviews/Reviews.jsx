@@ -14,7 +14,7 @@ export const Reviews = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="reviews bg-black pt-[129px] pb-20">
+    <div className="reviews bg-black pt-[30px] lg:pt-[129px] pb-10 lg:pb-20">
       <Container>
         <h4 className="font-bold text-[23px] text-safron uppercase mb-5">
           {t("reviews")}
@@ -57,6 +57,7 @@ export const Reviews = () => {
             }}
             autoplay={{ delay: 3000, disableOnInteraction: false }}
             breakpoints={{
+              430: { slidesPerView: 2, slidesPerGroup: 1, spaceBetween: 50 },
               640: { slidesPerView: 2, slidesPerGroup: 2, spaceBetween: 20 },
               1024: { slidesPerView: 3, slidesPerGroup: 3, spaceBetween: 30 },
               1280: { slidesPerView: 4, slidesPerGroup: 4, spaceBetween: 40 },
@@ -71,7 +72,7 @@ export const Reviews = () => {
           </Swiper>
         </div>
 
-        <div className="external-swiper-pagination flex justify-center mt-8"></div>
+        <div className="external-swiper-pagination flex justify-center mt-8 relative z-10"></div>
       </Container>
     </div>
   );

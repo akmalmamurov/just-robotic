@@ -5,7 +5,7 @@ import { AboutIcon, ContactIcon, CourseIcon } from "../../assets/icons";
 const HeaderMenu = ({ setOpen, t }) => {
   return (
     <div className="block lg:hidden min-h-[100vh] h-full absolute mt-[37px] w-full">
-      <div className="w-full h-full bg-black mx-[15px] pt-1 pl-5 pr-[56px] font-involve">
+      <div className="w-full h-full bg-black  pt-1 pl-5 pr-[56px] font-involve">
         <div
           onClick={() => setOpen(false)}
           className="flex pl-2 gap-2 items-center py-4 border-b border-lightWhite cursor-pointer "

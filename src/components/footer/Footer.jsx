@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     <footer className="pt-[10px] pb-[17px] bg-goldenYellow font-involve">
       <Container>
-        <div className="grid grid-cols-4 gap-[140px]">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-[30px] lg:gap-[140px]">
           <div className="">
             <img src={logoFooter} alt="logo" className="mb-[15px]" />
             <span className="font-semibold text-sm leading-[22px]">
@@ -78,6 +78,9 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="mt-[22px]">
+          <p className="font-semibold text-sm text-black">Ideallux.com © 2000-2024, All Rights Reserved</p>
         </div>
       </Container>
     </footer>

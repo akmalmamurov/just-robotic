@@ -11,3 +11,4 @@ export * from "./HomeIcon";
 export * from "./AboutIcon";
 export * from "./ContactIcon";
 export * from "./CourseIcon";
+export * from "./PlayIcon";
